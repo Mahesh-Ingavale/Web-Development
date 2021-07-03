@@ -43,5 +43,3 @@ ALTER proc [dbo].[filterrent]
 as
 begin select * from tblrent where Email=@Email
 end
- 
-
