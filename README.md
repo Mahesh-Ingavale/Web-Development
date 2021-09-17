@@ -26,7 +26,7 @@ begin
 insert into tbljob (First, Last, Contact, Email, Experience, Qualification, Image, Date) values (@First, @Last, @Contact, @Email, @Experience, @Qualification, @Image, @Date)
 end
 
-
+ 
 #Update Query
 ALTER proc [dbo].[updatepass]
 @Email nvarchar(50),
